@@ -1,10 +1,8 @@
 import VowelCounter as counter
-
-print(counter.check_valid("KLK"))
-
-print(counter.count_vowels("Doctor"))
-
-print(counter.count_vowels("W"))
-
+ext = ""
+print('PRESS 0 TO TERMINATE')
+while ext != '0':
+    ext = input("Palabra o Frase: ")
+    print(counter.count_vowels(ext))
 
 
